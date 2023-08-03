@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wils">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="339dp"
+        android:layout_height="247dp"
+        android:text="  Wilson's bird-of-paradise is a species of passerine bird of the family Paradisaeidae. The first footage of the Wilson's bird-of-paradise ever to be filmed was recorded in 1996 by David Attenborough for the BBC documentary Attenborough in Paradise.Wilson's bird-of-paradise is rather small. Males can reach a length of 16 centimetres (6.3 in) (21 cm including central rectrices) and a weight of 53–67 g., while females can reach a length of 16 cm, but a weight of 52–60 g.[5] The male is a red and black bird-of-paradise, with a yellow mantle on its neck, light green mouth, rich blue feet and two curved violet tail feathers. The head is naked blue, with a black double cross pattern on it. The female is a brownish bird with bare blue crown."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="193dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083"
+        app:srcCompat="@drawable/wilson" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="335dp"
+        android:layout_height="43dp"
+        android:text=" Wilson's bird-of-paradise"
+        android:textColor="#070707"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="268dp"
+        android:layout_height="166dp"
+
+        app:autoPlay="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        app:videoId="_qohoG3euFY" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:text="This is my bird"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

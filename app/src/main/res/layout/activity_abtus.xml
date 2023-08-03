@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abtus">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:text="About us"
+        android:textColor="#070707"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="336dp"
+        android:layout_height="308dp"
+        android:text="Welcome to our bird app! We are passionate about birds, and our goal is to share our love and knowledge of these magnificent creatures with you. Our app contains all the details you need to know about the birds of paradise, from their stunning appearance and behavior to their habitat and conservation status. Our team has worked hard to gather the most up-to-date and accurate information, so you can learn more about these fascinating birds and their unique features. We hope that our app inspires you to appreciate and protect these beautiful birds, and we look forward to sharing more information with you in the future."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
+</androidx.constraintlayout.widget.ConstraintLayout>
